@@ -1,0 +1,78 @@
+ *{
+	margin: 0;
+	padding: 0;
+ }
+ body{
+	display: flex;	
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	max-width: 500px;
+	background-image: url(fiol.jpg);
+	color: rgb(72, 1, 138);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .nav{
+	margin: 20px;
+	background-color: rgb(234, 212, 255);
+	width: 250px;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: 0 0 20px rgb(95, 1, 124);
+ }
+ ul{
+	padding: 20px;
+	list-style: square;
+ }
+ li{
+	box-shadow: 0px 0px 1px black;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 5px;
+	background-color: rgb(216, 174, 255);
+ }
+ a{
+	color: rgb(78, 78, 78);
+	text-decoration: none;
+	font-style: italic;
+	font-size: 16px;
+ }
+ li:hover,a:hover{
+	color: rgb(147, 52, 211);
+ }
+ li:active,a:active{
+	color: rgb(175, 91, 253);
+ }
+.task{
+	margin: 20px;
+	padding: 10px;
+	text-align: justify;
+	background-color: rgb(234, 212, 255);
+	border-radius: 25px;
+	box-shadow: 0 0 20px rgb(95, 1, 124);
+}
+h2{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 30px;
+}
+p::first-letter{
+	font-size: 30px;
+}
+#table{
+	padding: 5px;
+	text-align: center;
+}
+th{
+	font-style: italic;
+}
+td{
+	padding: 5px;
+	border: 1px solid;
+	border-radius: 10px;
+	background-color: rgb(216, 174, 255);
+}
+tr{
+	margin: 10px;
+}
